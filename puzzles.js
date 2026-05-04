@@ -324,7 +324,7 @@ const PUZZLES = [
   {
     date: "2026-04-29",
     name: "Squoze",
-    aliases: ["Squoz"],
+    aliases: ["Squoz", "Sleepwaler", "Return", "Return of the Sleepwalker"],
     grade: "V14",
     location: "Red Rocks, NV",
     photo: "images/squoze.jpg"
@@ -395,11 +395,11 @@ const PUZZLES = [
   },
   {
     date: "2026-05-08",
-    name: "Drawn and Quartered",
-    aliases: ["Drawn", "Drawn n Quartered", "Drawn & Quartered"],
+    name: "The Teacup",
+    aliases: ["Teacup", "Tea Cup"],
     grade: "V13",
     location: "Leavenworth, WA",
-    photo: "images/drawn_and_quartered.png"
+    photo: "images/the_teacup.jpg"
   },
   {
     date: "2026-05-09",
@@ -564,7 +564,7 @@ const PUZZLES = [
   {
     date: "2026-05-29",
     name: "Running Scared",
-    aliases: [],
+    aliases: ["Run Scared"],
     grade: "V10",
     location: "RMNP, CO",
     photo: "images/running_scared.jpg"
@@ -572,7 +572,7 @@ const PUZZLES = [
   {
     date: "2026-05-30",
     name: "Graviton",
-    aliases: [],
+    aliases: ["Gravitation", "Gravaton", "Graveton"],
     grade: "V6",
     location: "Fontainebleau, France",
     photo: "images/graviton.jpg"
@@ -580,7 +580,7 @@ const PUZZLES = [
   {
     date: "2026-05-31",
     name: "Mirror Reality",
-    aliases: [],
+    aliases: ["Mirrored Reality"],
     grade: "V14",
     location: "RMNP, CO",
     photo: "images/mirror_reality.jpg"
@@ -728,13 +728,5 @@ const PUZZLES = [
     grade: "V10",
     location: "Brione, Switzerland",
     photo: "images/special_edition.jpg"
-  },
-  {
-    date: "2026-06-19",
-    name: "The Teacup",
-    aliases: ["Teacup", "Tea Cup"],
-    grade: "V13",
-    location: "Leavenworth, WA",
-    photo: "images/the_teacup.jpg"
   }
 ];
