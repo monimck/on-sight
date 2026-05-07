@@ -733,7 +733,7 @@ const PUZZLES = [
   {
     date: "2026-06-19",
     name: "Agoraphobia",
-    aliases: [],
+    aliases: ["Agorophobia"],
     grade: "V11",
     location: "Squamish, BC",
     photo: "images/agoraphobia.jpg"
@@ -741,9 +741,9 @@ const PUZZLES = [
   {
     date: "2026-06-20",
     name: "Atomic Melvin Low",
-    aliases: ["Atomic Melvin"],
+    aliases: ["Atomic Melvin", "Melvin", "Atomic", "Melvin Low", "Atomic Low"],
     grade: "V12",
-    location: "Lost Cove, NC",
+    location: "Boone, NC",
     photo: "images/atomic_melvin_low.jpg"
   },
   {
@@ -773,7 +773,7 @@ const PUZZLES = [
   {
     date: "2026-06-24",
     name: "Black Slabbath",
-    aliases: [],
+    aliases: ["Black Slabbith"],
     grade: "V7",
     location: "Squamish, BC",
     photo: "images/black_slabbath.jpg"
@@ -781,15 +781,15 @@ const PUZZLES = [
   {
     date: "2026-06-25",
     name: "Blue Sky of Mine",
-    aliases: [],
-    grade: "V4",
+    aliases: ["Blue Sky"],
+    grade: "V3",
     location: "Magic Wood, Switzerland",
     photo: "images/blue_sky_of_mine.png"
   },
   {
     date: "2026-06-26",
     name: "Box Therapy",
-    aliases: [],
+    aliases: ["Box"],
     grade: "V15",
     location: "RMNP, CO",
     photo: "images/box_therapy.jpg"
@@ -797,7 +797,7 @@ const PUZZLES = [
   {
     date: "2026-06-27",
     name: "Brione Arete",
-    aliases: [],
+    aliases: ["Brione's Arete"],
     grade: "V4",
     location: "Brione, Switzerland",
     photo: "images/brione_arete.png"
@@ -805,7 +805,7 @@ const PUZZLES = [
   {
     date: "2026-06-28",
     name: "Cedar Spine",
-    aliases: [],
+    aliases: ["Ceder Spine"],
     grade: "V9",
     location: "Rocklands, South Africa",
     photo: "images/cedar_spine.jpg"
@@ -813,15 +813,15 @@ const PUZZLES = [
   {
     date: "2026-06-29",
     name: "Cirque du Soleil",
-    aliases: ["Cirque Du Soleil"],
-    grade: "V11",
-    location: "Austin, TX",
+    aliases: ["Cirque do Soleil", "Cirque du Soile", "Cirque du Solet", "Cirque du Solel", "Cirque du Soliel"],
+    grade: "V3",
+    location: "Red Rocks, NV",
     photo: "images/cirque_du_soleil.png"
   },
   {
     date: "2026-06-30",
-    name: "Clockwork Orange",
-    aliases: ["A Clockwork Orange"],
+    name: "A Clockwork Orange",
+    aliases: ["Clockwork Orange", "Clock Work Orange"],
     grade: "V12",
     location: "Red Rocks, NV",
     photo: "images/clockwork_orange.jpg"
@@ -837,15 +837,15 @@ const PUZZLES = [
   {
     date: "2026-07-02",
     name: "Creaking Heights",
-    aliases: [],
-    grade: "V8",
+    aliases: ["Creeking Heights"],
+    grade: "V5",
     location: "Rocklands, South Africa",
     photo: "images/creaking_heights.jpg"
   },
   {
     date: "2026-07-03",
     name: "Dreamtime",
-    aliases: [],
+    aliases: ["Dream Time"],
     grade: "V15",
     location: "Cresciano, Switzerland",
     photo: "images/dreamtime.jpg"
@@ -853,40 +853,40 @@ const PUZZLES = [
   {
     date: "2026-07-04",
     name: "Drop the Clutch",
-    aliases: [],
+    aliases: ["Dream Racer", "Ease the Clutch", "Autotriangulation", "Ease into the Dream", "Autobahn", ],
     grade: "V8",
-    location: "Lincoln Woods, RI",
+    location: "Ogden, UT",
     photo: "images/drop_the_clutch.jpg"
   },
   {
     date: "2026-07-05",
     name: "Eclipse",
-    aliases: [],
-    grade: "V8",
-    location: "Albarracín, Spain",
+    aliases: ["Eclipse Sit"],
+    grade: "V12",
+    location: "Litte Cottonwood Canyon, UT",
     photo: "images/eclipse.jpg"
   },
   {
     date: "2026-07-06",
     name: "El Corazon",
-    aliases: ["El Corozon"],
+    aliases: ["El Corozon", "Corazon"],
     grade: "V13",
     location: "Rocklands, South Africa",
-    photo: "images/el_corozon.jpg"
+    photo: "images/el_corazon.jpg"
   },
   {
     date: "2026-07-07",
     name: "Eminently Climbable",
-    aliases: [],
-    grade: "V9",
+    aliases: ["Eminintly Climbable", "Imenently Climbable"],
+    grade: "V10",
     location: "Lake Tahoe, CA",
     photo: "images/eminently_climbable.jpg"
   },
   {
     date: "2026-07-08",
     name: "Fear of a Black Hat",
-    aliases: ["Fear of the Black Hat"],
-    grade: "V7",
+    aliases: ["Fear of the Black Hat", "Fear of a Black Cat"],
+    grade: "V9",
     location: "Red Rocks, NV",
     photo: "images/fear_of_a_black_hat.jpg"
   },
@@ -895,7 +895,7 @@ const PUZZLES = [
     name: "Finding Max",
     aliases: [],
     grade: "V12",
-    location: "Margaret River, Australia",
+    location: "Copper Rocks, Australia",
     photo: "images/finding_max.jpg"
   },
   {
@@ -909,7 +909,7 @@ const PUZZLES = [
   {
     date: "2026-07-11",
     name: "Frogger",
-    aliases: [],
+    aliases: ["Froger"],
     grade: "V13",
     location: "Brione, Switzerland",
     photo: "images/frogger.png"
@@ -925,7 +925,7 @@ const PUZZLES = [
   {
     date: "2026-07-13",
     name: "Jack the Chipper",
-    aliases: ["Jack The Ripper"],
+    aliases: ["Jack The Ripper", "Jack the Chiper"],
     grade: "V9",
     location: "Magic Wood, Switzerland",
     photo: "images/jack_the_chipper.png"
@@ -933,7 +933,7 @@ const PUZZLES = [
   {
     date: "2026-07-14",
     name: "Kill by Numbers",
-    aliases: [],
+    aliases: ["Kill by Number"],
     grade: "V5",
     location: "Joe's Valley, UT",
     photo: "images/kill_by_numbers.jpg"
@@ -950,14 +950,14 @@ const PUZZLES = [
     date: "2026-07-16",
     name: "La Marie Rose",
     aliases: ["Marie Rose"],
-    grade: "V1",
+    grade: "V3",
     location: "Fontainebleau, France",
     photo: "images/la_marie_rose.png"
   },
   {
     date: "2026-07-17",
     name: "Low Tide",
-    aliases: [],
+    aliases: ["Lowtide"],
     grade: "V6",
     location: "Joe's Valley, UT",
     photo: "images/low_tide.jpg"
@@ -965,25 +965,25 @@ const PUZZLES = [
   {
     date: "2026-07-18",
     name: "Mike's Seam",
-    aliases: ["Mikes Seam", "Mike Seam"],
+    aliases: ["Mikes Seam", "Mike Seam", "Orange Crush", "Mike's Dyno", "Mikes Dyno", "Mikes Seam Stand", "Mike's Seam Stand"],
     grade: "V10",
     location: "Big Cottonwood Canyon, UT",
     photo: "images/mikes_seam.jpg"
   },
   {
     date: "2026-07-19",
-    name: "Milkman",
-    aliases: [],
-    grade: "V8",
+    name: "Milkman Sit",
+    aliases: ["Milkman", "Milkman Stand"],
+    grade: "V10",
     location: "Joe's Valley, UT",
     photo: "images/milkman.jpg"
   },
   {
     date: "2026-07-20",
-    name: "Multiverse",
-    aliases: [],
+    name: "The Multiverse",
+    aliases: ["Multiverse"],
     grade: "V15",
-    location: "Sinks Canyon, WY",
+    location: "Neverland, WY",
     photo: "images/multiverse.jpg"
   },
   {
@@ -997,15 +997,15 @@ const PUZZLES = [
   {
     date: "2026-07-22",
     name: "Pagan Poetry",
-    aliases: [],
+    aliases: ["Pegasus", "Pagan", "Pegan Poetry"],
     grade: "V11",
     location: "Joe's Valley, UT",
     photo: "images/pagan_poetry.jpg"
   },
   {
     date: "2026-07-23",
-    name: "Practitioner",
-    aliases: [],
+    name: "The Practitioner",
+    aliases: ["Practitioner"],
     grade: "V11",
     location: "Leavenworth, WA",
     photo: "images/practitioner.png"
@@ -1021,7 +1021,7 @@ const PUZZLES = [
   {
     date: "2026-07-25",
     name: "Red Letter Day",
-    aliases: [],
+    aliases: ["Red Letter", "Red Day", "Letter Day"],
     grade: "V10",
     location: "Little Cottonwood Canyon, UT",
     photo: "images/red_letter_day.jpg"
@@ -1029,7 +1029,7 @@ const PUZZLES = [
   {
     date: "2026-07-26",
     name: "Resurrection",
-    aliases: [],
+    aliases: ["Resurrection Low", "Ressurrection", "The Resurrection"],
     grade: "V8",
     location: "Leavenworth, WA",
     photo: "images/resurrection_leavenworth.png"
@@ -1037,7 +1037,7 @@ const PUZZLES = [
   {
     date: "2026-07-27",
     name: "Resurrection",
-    aliases: [],
+    aliases: ["Ressurrection", "The Resurrection"],
     grade: "V9",
     location: "Squamish, BC",
     photo: "images/resurrection_squamish.jpg"
@@ -1045,7 +1045,7 @@ const PUZZLES = [
   {
     date: "2026-07-28",
     name: "Ron Ron et Caramel",
-    aliases: ["Ron Ron and Caramel"],
+    aliases: ["Ron Ron and Caramel", "Ron Ron", "Ron Ron et Carmel"],
     grade: "V10",
     location: "Rocklands, South Africa",
     photo: "images/ron_ron_et_caramel.jpg"
@@ -1053,7 +1053,7 @@ const PUZZLES = [
   {
     date: "2026-07-29",
     name: "Room Service",
-    aliases: [],
+    aliases: ["Room Service Low", "Event Horizon", "The Singularity"],
     grade: "V12",
     location: "Squamish, BC",
     photo: "images/room_service.jpg"
