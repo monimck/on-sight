@@ -2,7 +2,7 @@
 // To add new puzzles: add entries to this array.
 // Each puzzle is tied to a date (YYYY-MM-DD). The puzzle for today's date will be shown.
 // If no puzzle exists for today, puzzle index 0 is used as fallback.
-// 
+//
 // Fields:
 //   date     - "YYYY-MM-DD" string (today's puzzle)
 //   name     - The correct boulder problem name (case-insensitive match)
@@ -728,5 +728,559 @@ const PUZZLES = [
     grade: "V10",
     location: "Brione, Switzerland",
     photo: "images/special_edition.jpg"
-  }
+  },
+  // ─── NEW PROBLEMS ADDED 2026-06-19 onwards ────────────────────────────────────
+  {
+    date: "2026-06-19",
+    name: "Agoraphobia",
+    aliases: [],
+    grade: "V11",
+    location: "Squamish, BC",
+    photo: "images/agoraphobia.jpg"
+  },
+  {
+    date: "2026-06-20",
+    name: "Atomic Melvin Low",
+    aliases: ["Atomic Melvin"],
+    grade: "V12",
+    location: "Lost Cove, NC",
+    photo: "images/atomic_melvin_low.jpg"
+  },
+  {
+    date: "2026-06-21",
+    name: "Beyond Life",
+    aliases: [],
+    grade: "V10",
+    location: "Joe's Valley, UT",
+    photo: "images/beyond_life.jpg"
+  },
+  {
+    date: "2026-06-22",
+    name: "Big Z",
+    aliases: [],
+    grade: "V16",
+    location: "Lake Tahoe, CA",
+    photo: "images/big_z.jpg"
+  },
+  {
+    date: "2026-06-23",
+    name: "Black Arete",
+    aliases: [],
+    grade: "V9",
+    location: "Brione, Switzerland",
+    photo: "images/black_arete.png"
+  },
+  {
+    date: "2026-06-24",
+    name: "Black Slabbath",
+    aliases: [],
+    grade: "V7",
+    location: "Squamish, BC",
+    photo: "images/black_slabbath.jpg"
+  },
+  {
+    date: "2026-06-25",
+    name: "Blue Sky of Mine",
+    aliases: [],
+    grade: "V4",
+    location: "Magic Wood, Switzerland",
+    photo: "images/blue_sky_of_mine.png"
+  },
+  {
+    date: "2026-06-26",
+    name: "Box Therapy",
+    aliases: [],
+    grade: "V15",
+    location: "RMNP, CO",
+    photo: "images/box_therapy.jpg"
+  },
+  {
+    date: "2026-06-27",
+    name: "Brione Arete",
+    aliases: [],
+    grade: "V4",
+    location: "Brione, Switzerland",
+    photo: "images/brione_arete.png"
+  },
+  {
+    date: "2026-06-28",
+    name: "Cedar Spine",
+    aliases: [],
+    grade: "V9",
+    location: "Rocklands, South Africa",
+    photo: "images/cedar_spine.jpg"
+  },
+  {
+    date: "2026-06-29",
+    name: "Cirque du Soleil",
+    aliases: ["Cirque Du Soleil"],
+    grade: "V11",
+    location: "Austin, TX",
+    photo: "images/cirque_du_soleil.png"
+  },
+  {
+    date: "2026-06-30",
+    name: "Clockwork Orange",
+    aliases: ["A Clockwork Orange"],
+    grade: "V12",
+    location: "Red Rocks, NV",
+    photo: "images/clockwork_orange.jpg"
+  },
+  {
+    date: "2026-07-01",
+    name: "Corner Relief",
+    aliases: [],
+    grade: "V8",
+    location: "Squamish, BC",
+    photo: "images/corner_relief.jpg"
+  },
+  {
+    date: "2026-07-02",
+    name: "Creaking Heights",
+    aliases: [],
+    grade: "V8",
+    location: "Rocklands, South Africa",
+    photo: "images/creaking_heights.jpg"
+  },
+  {
+    date: "2026-07-03",
+    name: "Dreamtime",
+    aliases: [],
+    grade: "V15",
+    location: "Cresciano, Switzerland",
+    photo: "images/dreamtime.jpg"
+  },
+  {
+    date: "2026-07-04",
+    name: "Drop the Clutch",
+    aliases: [],
+    grade: "V8",
+    location: "Lincoln Woods, RI",
+    photo: "images/drop_the_clutch.jpg"
+  },
+  {
+    date: "2026-07-05",
+    name: "Eclipse",
+    aliases: [],
+    grade: "V8",
+    location: "Albarracín, Spain",
+    photo: "images/eclipse.jpg"
+  },
+  {
+    date: "2026-07-06",
+    name: "El Corazon",
+    aliases: ["El Corozon"],
+    grade: "V13",
+    location: "Rocklands, South Africa",
+    photo: "images/el_corozon.jpg"
+  },
+  {
+    date: "2026-07-07",
+    name: "Eminently Climbable",
+    aliases: [],
+    grade: "V9",
+    location: "Lake Tahoe, CA",
+    photo: "images/eminently_climbable.jpg"
+  },
+  {
+    date: "2026-07-08",
+    name: "Fear of a Black Hat",
+    aliases: ["Fear of the Black Hat"],
+    grade: "V7",
+    location: "Red Rocks, NV",
+    photo: "images/fear_of_a_black_hat.jpg"
+  },
+  {
+    date: "2026-07-09",
+    name: "Finding Max",
+    aliases: [],
+    grade: "V12",
+    location: "Margaret River, Australia",
+    photo: "images/finding_max.jpg"
+  },
+  {
+    date: "2026-07-10",
+    name: "Fort Rosstafarian",
+    aliases: ["Fort Rastafarian"],
+    grade: "V6",
+    location: "Fort Ross, CA",
+    photo: "images/fort_rosstafarian.png"
+  },
+  {
+    date: "2026-07-11",
+    name: "Frogger",
+    aliases: [],
+    grade: "V13",
+    location: "Brione, Switzerland",
+    photo: "images/frogger.png"
+  },
+  {
+    date: "2026-07-12",
+    name: "Grit Deluxe",
+    aliases: [],
+    grade: "V8",
+    location: "Magic Wood, Switzerland",
+    photo: "images/grit_deluxe.png"
+  },
+  {
+    date: "2026-07-13",
+    name: "Jack the Chipper",
+    aliases: ["Jack The Ripper"],
+    grade: "V9",
+    location: "Magic Wood, Switzerland",
+    photo: "images/jack_the_chipper.png"
+  },
+  {
+    date: "2026-07-14",
+    name: "Kill by Numbers",
+    aliases: [],
+    grade: "V5",
+    location: "Joe's Valley, UT",
+    photo: "images/kill_by_numbers.jpg"
+  },
+  {
+    date: "2026-07-15",
+    name: "Krishna Cave",
+    aliases: [],
+    grade: "V9",
+    location: "Squamish, BC",
+    photo: "images/krishna_cave.jpg"
+  },
+  {
+    date: "2026-07-16",
+    name: "La Marie Rose",
+    aliases: ["Marie Rose"],
+    grade: "V1",
+    location: "Fontainebleau, France",
+    photo: "images/la_marie_rose.png"
+  },
+  {
+    date: "2026-07-17",
+    name: "Low Tide",
+    aliases: [],
+    grade: "V6",
+    location: "Joe's Valley, UT",
+    photo: "images/low_tide.jpg"
+  },
+  {
+    date: "2026-07-18",
+    name: "Mike's Seam",
+    aliases: ["Mikes Seam", "Mike Seam"],
+    grade: "V10",
+    location: "Big Cottonwood Canyon, UT",
+    photo: "images/mikes_seam.jpg"
+  },
+  {
+    date: "2026-07-19",
+    name: "Milkman",
+    aliases: [],
+    grade: "V8",
+    location: "Joe's Valley, UT",
+    photo: "images/milkman.jpg"
+  },
+  {
+    date: "2026-07-20",
+    name: "Multiverse",
+    aliases: [],
+    grade: "V15",
+    location: "Sinks Canyon, WY",
+    photo: "images/multiverse.jpg"
+  },
+  {
+    date: "2026-07-21",
+    name: "Natasha's Highball",
+    aliases: ["Natashas Highball", "Natasha Highball"],
+    grade: "V2",
+    location: "Red Rocks, NV",
+    photo: "images/natashas_highball.jpg"
+  },
+  {
+    date: "2026-07-22",
+    name: "Pagan Poetry",
+    aliases: [],
+    grade: "V11",
+    location: "Joe's Valley, UT",
+    photo: "images/pagan_poetry.jpg"
+  },
+  {
+    date: "2026-07-23",
+    name: "Practitioner",
+    aliases: [],
+    grade: "V11",
+    location: "Leavenworth, WA",
+    photo: "images/practitioner.png"
+  },
+  {
+    date: "2026-07-24",
+    name: "Raining Choss",
+    aliases: [],
+    grade: "V10",
+    location: "Boone, NC",
+    photo: "images/raining_choss.jpg"
+  },
+  {
+    date: "2026-07-25",
+    name: "Red Letter Day",
+    aliases: [],
+    grade: "V10",
+    location: "Little Cottonwood Canyon, UT",
+    photo: "images/red_letter_day.jpg"
+  },
+  {
+    date: "2026-07-26",
+    name: "Resurrection",
+    aliases: [],
+    grade: "V8",
+    location: "Leavenworth, WA",
+    photo: "images/resurrection_leavenworth.png"
+  },
+  {
+    date: "2026-07-27",
+    name: "Resurrection",
+    aliases: [],
+    grade: "V9",
+    location: "Squamish, BC",
+    photo: "images/resurrection_squamish.jpg"
+  },
+  {
+    date: "2026-07-28",
+    name: "Ron Ron et Caramel",
+    aliases: ["Ron Ron and Caramel"],
+    grade: "V10",
+    location: "Rocklands, South Africa",
+    photo: "images/ron_ron_et_caramel.jpg"
+  },
+  {
+    date: "2026-07-29",
+    name: "Room Service",
+    aliases: [],
+    grade: "V12",
+    location: "Squamish, BC",
+    photo: "images/room_service.jpg"
+  },
+  {
+    date: "2026-07-30",
+    name: "Samurai Tango",
+    aliases: [],
+    grade: "V8",
+    location: "Magic Wood, Switzerland",
+    photo: "images/samurai_tango.png"
+  },
+  {
+    date: "2026-07-31",
+    name: "Schneebrett",
+    aliases: [],
+    grade: "V9",
+    location: "Magic Wood, Switzerland",
+    photo: "images/schneebrett.png"
+  },
+  {
+    date: "2026-08-01",
+    name: "Secret Lives of Children",
+    aliases: ["Secret Life of Children"],
+    grade: "V9",
+    location: "Squamish, BC",
+    photo: "images/secret_lives_of_children.jpg"
+  },
+  {
+    date: "2026-08-02",
+    name: "Slasher",
+    aliases: [],
+    grade: "V13",
+    location: "Joe's Valley, UT",
+    photo: "images/slasher.jpg"
+  },
+  {
+    date: "2026-08-03",
+    name: "Thunderdome",
+    aliases: [],
+    grade: "V9",
+    location: "Leavenworth, WA",
+    photo: "images/thunderdome.jpg"
+  },
+  {
+    date: "2026-08-04",
+    name: "Titanic",
+    aliases: [],
+    grade: "V3",
+    location: "Squamish, BC",
+    photo: "images/titanic.jpg"
+  },
+  {
+    date: "2026-08-05",
+    name: "Ubuntu",
+    aliases: [],
+    grade: "V13",
+    location: "Rocklands, South Africa",
+    photo: "images/ubuntu.jpg"
+  },
+  {
+    date: "2026-08-06",
+    name: "Will's a Fire",
+    aliases: ["Wills a Fire", "Wills Fire"],
+    grade: "V6",
+    location: "Joe's Valley, UT",
+    photo: "images/wills_a_fire.jpg"
+  },
+  {
+    date: "2026-08-07",
+    name: "Worm Turns",
+    aliases: ["The Worm Turns"],
+    grade: "V10",
+    location: "Joe's Valley, UT",
+    photo: "images/worm_turns.jpg"
+  },
+  {
+    date: "2026-08-08",
+    name: "Wrinkle in Time",
+    aliases: ["A Wrinkle in Time"],
+    grade: "V11",
+    location: "Joe's Valley, UT",
+    photo: "images/wrinkle_in_time.jpg"
+  },
+  {
+    date: "2026-08-09",
+    name: "Yin Yang",
+    aliases: ["Yin-Yang"],
+    grade: "V7",
+    location: "Index, WA",
+    photo: "images/yin_yang.png"
+  },
+  // ─── NEW PROBLEMS ADDED 2026-08-10 onwards ────────────────────────────────────
+  {
+    date: "2026-08-10",
+    name: "Apu Karma Lita",
+    aliases: [],
+    grade: "",
+    location: "",
+    photo: "images/apu_karma_lita.jpg"
+  },
+  {
+    date: "2026-08-11",
+    name: "Austere",
+    aliases: [],
+    grade: "",
+    location: "",
+    photo: "images/austere.jpg"
+  },
+  {
+    date: "2026-08-12",
+    name: "Battletoads",
+    aliases: [],
+    grade: "",
+    location: "",
+    photo: "images/battletoads.png"
+  },
+  {
+    date: "2026-08-13",
+    name: "Burnt",
+    aliases: [],
+    grade: "",
+    location: "",
+    photo: "images/burnt.jpg"
+  },
+  {
+    date: "2026-08-14",
+    name: "Drawing of the Three",
+    aliases: [],
+    grade: "",
+    location: "",
+    photo: "images/drawing_of_the_three.jpg"
+  },
+  {
+    date: "2026-08-15",
+    name: "Final Hour",
+    aliases: [],
+    grade: "",
+    location: "",
+    photo: "images/final_hour.jpg"
+  },
+  {
+    date: "2026-08-16",
+    name: "Gringo",
+    aliases: [],
+    grade: "",
+    location: "",
+    photo: "images/gringo.jpg"
+  },
+  {
+    date: "2026-08-17",
+    name: "Jack Horner",
+    aliases: [],
+    grade: "",
+    location: "",
+    photo: "images/jack_horner.jpg"
+  },
+  {
+    date: "2026-08-18",
+    name: "Odysseus",
+    aliases: [],
+    grade: "",
+    location: "",
+    photo: "images/odysseus.jpg"
+  },
+  {
+    date: "2026-08-19",
+    name: "Out of Balance",
+    aliases: [],
+    grade: "",
+    location: "",
+    photo: "images/out_of_balance.jpg"
+  },
+  {
+    date: "2026-08-20",
+    name: "Pleasure Pack",
+    aliases: [],
+    grade: "",
+    location: "",
+    photo: "images/pleasure_pack.jpg"
+  },
+  {
+    date: "2026-08-21",
+    name: "Raw Horse",
+    aliases: [],
+    grade: "",
+    location: "",
+    photo: "images/raw_horse.jpg"
+  },
+  {
+    date: "2026-08-22",
+    name: "Snake Slab",
+    aliases: [],
+    grade: "",
+    location: "",
+    photo: "images/snake_slab.jpg"
+  },
+  {
+    date: "2026-08-23",
+    name: "Spinal Twist",
+    aliases: [],
+    grade: "",
+    location: "",
+    photo: "images/spinal_twist.jpg"
+  },
+  {
+    date: "2026-08-24",
+    name: "Toto",
+    aliases: [],
+    grade: "",
+    location: "",
+    photo: "images/toto.jpg"
+  },
+  {
+    date: "2026-08-25",
+    name: "Was",
+    aliases: [],
+    grade: "",
+    location: "",
+    photo: "images/was.jpg"
+  },
+  {
+    date: "2026-08-26",
+    name: "World is Not Enough",
+    aliases: ["The World is Not Enough"],
+    grade: "",
+    location: "",
+    photo: "images/world_is_not_enough.jpg"
+  },
 ];
