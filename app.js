@@ -719,3 +719,10 @@ if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register('/sw.js');
   });
 }
+
+// ─── PREVENT LONG-PRESS IMAGE INSPECTION ──────────────────────────────────────
+document.addEventListener('contextmenu', e => {
+  if (e.target.closest('.photo-container')) {
+    e.preventDefault();
+  }
+});
