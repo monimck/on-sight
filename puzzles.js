@@ -324,7 +324,7 @@ const PUZZLES = [
   {
     date: "2026-04-29",
     name: "Squoze",
-    aliases: ["Squoz", "Sleepwaler", "Return", "Return of the Sleepwalker"],
+    aliases: ["Squoz", "Sleepwalker", "Return", "Return of the Sleepwalker"],
     grade: "V14",
     location: "Red Rocks, NV",
     photo: "images/squoze.jpg"
@@ -727,7 +727,7 @@ const PUZZLES = [
     aliases: ["Special Edition"],
     grade: "V10",
     location: "Brione, Switzerland",
-    photo: "images/special_edition.jpg"
+    photo: "images/limited_edition.jpg"
   },
   // ─── NEW PROBLEMS ADDED 2026-06-19 onwards ────────────────────────────────────
   {
@@ -863,7 +863,7 @@ const PUZZLES = [
     name: "Eclipse",
     aliases: ["Eclipse Sit"],
     grade: "V12",
-    location: "Litte Cottonwood Canyon, UT",
+    location: "Little Cottonwood Canyon, UT",
     photo: "images/eclipse.jpg"
   },
   {
@@ -1061,7 +1061,7 @@ const PUZZLES = [
   {
     date: "2026-07-30",
     name: "Samurai Tango",
-    aliases: ["Samurai Tango"],
+    aliases: ["The Samurai Tango", "Samuri Tango"],
     grade: "V8",
     location: "Magic Wood, Switzerland",
     photo: "images/samurai_tango.png"
