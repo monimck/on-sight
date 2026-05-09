@@ -170,6 +170,11 @@ function renderGameScreen() {
   const g = state.currentGuess;
   const zoom = ZOOM_LEVELS[g];
 
+  // Show/hide the archive back button
+  const isArchive = archiveDatePlaying && archiveDatePlaying !== getTodayString();
+  const backBtn = document.getElementById('archive-back-btn');
+  if (backBtn) backBtn.style.display = isArchive ? 'block' : 'none';
+
   document.getElementById('attempt-label').textContent = ATTEMPT_LABELS[g];
   document.getElementById('zoom-label').textContent = 'ZOOM LEVEL ' + zoom + 'X';
   const photoEl = document.getElementById('game-photo');
@@ -453,6 +458,16 @@ document.getElementById('guess-input').addEventListener('keydown', e => {
 });
 
 // ─── ARCHIVE ───────────────────────────────────────────────────────────────────
+/** Go back to the archive calendar from mid-game without saving a result */
+function backToArchiveFromGame() {
+  archiveDatePlaying = null;
+  state.puzzle = null;
+  state.currentGuess = 0;
+  state.finished = false;
+  state.pastGuesses = [];
+  showArchiveScreen();
+}
+
 let archiveYear = null;
 let archiveMonth = null; // 0-indexed
 
