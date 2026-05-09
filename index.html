@@ -69,9 +69,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
   /* HEADER */
   .header {
-    padding: 20px 24px 16px;
+    padding: 18px 24px;
     border-bottom: 1px solid var(--border);
     text-align: center;
+    position: relative;
   }
   .header-title {
     font-family: 'DM Mono', monospace;
@@ -222,7 +223,29 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   }
 
   /* GAME SCREEN */
-  .game-content { padding: 20px 20px 24px; flex: 1; display: flex; flex-direction: column; }
+  .game-content { padding: 20px 20px 24px; display: flex; flex-direction: column; }
+  .archive-back-btn {
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.12em;
+    line-height: 16px;
+    color: var(--green);
+    padding: 6px 4px;
+  }
+  .archive-back-btn svg { width: 16px; height: 16px; flex-shrink: 0; }
+  .archive-back-btn:hover { opacity: 0.75; }
   .game-eyebrow {
     font-family: 'DM Mono', monospace;
     font-size: 11px;
@@ -321,7 +344,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   .submit-btn:hover { background: var(--green-dark); }
   .submit-btn:disabled { background: var(--text-light); cursor: not-allowed; }
 
-  .attempts-section { margin-top: auto; }
   .attempts-count {
     font-family: 'DM Mono', monospace;
     font-size: 11px;
@@ -970,7 +992,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               <rect x="5" y="2" width="14" height="20" rx="2"/><line x1="12" y1="18" x2="12" y2="18" stroke-width="2.5" stroke-linecap="round"/><path d="M9 6h6M9 10h6"/>
             </svg>
           </div>
-          <div class="how-text">Add to your home screen for convenience — <span onclick="showInstallScreen()" style="color:var(--brown);font-weight:600;text-decoration:underline;text-underline-offset:3px;cursor:pointer;">View Guide</span></div>
+          <div class="how-text">Add to your home screen for convenience — <span onclick="showInstallScreen()" style="color:var(--brown);font-weight:600;text-decoration:underline;text-underline-offset:3px;cursor:pointer;">View guide</span></div>
         </div>
         <div class="how-item">
           <div class="how-icon">
@@ -987,7 +1009,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   <!-- GAME SCREEN -->
   <div class="screen" id="screen-game">
-    <div class="header"><div class="header-title">ON SIGHT</div></div>
+    <div class="header">
+      <button class="archive-back-btn" id="archive-back-btn" style="display:none;" onclick="backToArchiveFromGame()"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg><span style="vertical-align:middle;">ARCHIVE</span></button>
+      <div class="header-title">ON SIGHT</div>
+    </div>
     <div class="game-content">
       <div class="game-eyebrow">Daily Boulder Problem</div>
       <div class="game-attempt-label" id="attempt-label">FLASH ATTEMPT</div>
@@ -1003,37 +1028,35 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <div class="hint-text" id="hint-text" style="display:none"></div>
       <input class="guess-input" id="guess-input" type="text" placeholder="Enter Problem Name" autocomplete="off" autocorrect="off" spellcheck="false">
       <button class="submit-btn" id="submit-btn">SUBMIT GUESS</button>
-      <div class="attempts-section">
-        <div class="attempts-count" id="attempts-count" style="display:none">1 / 4 ATTEMPTS</div>
-        <div class="guess-dots">
-          <div class="guess-dot-wrap" id="dot-wrap-1">
-            <div class="guess-tooltip" id="tooltip-1"></div>
-            <div class="guess-dot" id="dot-1" onclick="toggleGuessTooltip(1)">
-              <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M4 4l10 10M14 4L4 14" stroke="#C0392B" stroke-width="2.5" stroke-linecap="round"/></svg>
-            </div>
-            <div class="guess-dot-label">Guess 1</div>
+      <div class="attempts-count" id="attempts-count" style="display:none">1 / 4 ATTEMPTS</div>
+      <div class="guess-dots">
+        <div class="guess-dot-wrap" id="dot-wrap-1">
+          <div class="guess-tooltip" id="tooltip-1"></div>
+          <div class="guess-dot" id="dot-1" onclick="toggleGuessTooltip(1)">
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M4 4l10 10M14 4L4 14" stroke="#C0392B" stroke-width="2.5" stroke-linecap="round"/></svg>
           </div>
-          <div class="guess-dot-wrap" id="dot-wrap-2">
-            <div class="guess-tooltip" id="tooltip-2"></div>
-            <div class="guess-dot" id="dot-2" onclick="toggleGuessTooltip(2)">
-              <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M4 4l10 10M14 4L4 14" stroke="#C0392B" stroke-width="2.5" stroke-linecap="round"/></svg>
-            </div>
-            <div class="guess-dot-label">Guess 2</div>
+          <div class="guess-dot-label">Guess 1</div>
+        </div>
+        <div class="guess-dot-wrap" id="dot-wrap-2">
+          <div class="guess-tooltip" id="tooltip-2"></div>
+          <div class="guess-dot" id="dot-2" onclick="toggleGuessTooltip(2)">
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M4 4l10 10M14 4L4 14" stroke="#C0392B" stroke-width="2.5" stroke-linecap="round"/></svg>
           </div>
-          <div class="guess-dot-wrap" id="dot-wrap-3">
-            <div class="guess-tooltip" id="tooltip-3"></div>
-            <div class="guess-dot" id="dot-3" onclick="toggleGuessTooltip(3)">
-              <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M4 4l10 10M14 4L4 14" stroke="#C0392B" stroke-width="2.5" stroke-linecap="round"/></svg>
-            </div>
-            <div class="guess-dot-label">Guess 3</div>
+          <div class="guess-dot-label">Guess 2</div>
+        </div>
+        <div class="guess-dot-wrap" id="dot-wrap-3">
+          <div class="guess-tooltip" id="tooltip-3"></div>
+          <div class="guess-dot" id="dot-3" onclick="toggleGuessTooltip(3)">
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M4 4l10 10M14 4L4 14" stroke="#C0392B" stroke-width="2.5" stroke-linecap="round"/></svg>
           </div>
-          <div class="guess-dot-wrap" id="dot-wrap-4">
-            <div class="guess-tooltip" id="tooltip-4"></div>
-            <div class="guess-dot" id="dot-4" onclick="toggleGuessTooltip(4)">
-              <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M4 4l10 10M14 4L4 14" stroke="#C0392B" stroke-width="2.5" stroke-linecap="round"/></svg>
-            </div>
-            <div class="guess-dot-label">Guess 4</div>
+          <div class="guess-dot-label">Guess 3</div>
+        </div>
+        <div class="guess-dot-wrap" id="dot-wrap-4">
+          <div class="guess-tooltip" id="tooltip-4"></div>
+          <div class="guess-dot" id="dot-4" onclick="toggleGuessTooltip(4)">
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M4 4l10 10M14 4L4 14" stroke="#C0392B" stroke-width="2.5" stroke-linecap="round"/></svg>
           </div>
+          <div class="guess-dot-label">Guess 4</div>
         </div>
       </div>
     </div>
