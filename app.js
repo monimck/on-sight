@@ -173,7 +173,7 @@ function renderGameScreen() {
   // Show/hide the archive back button
   const isArchive = archiveDatePlaying && archiveDatePlaying !== getTodayString();
   const backBtn = document.getElementById('archive-back-btn');
-  if (backBtn) backBtn.style.display = isArchive ? 'block' : 'none';
+  if (backBtn) backBtn.style.display = isArchive ? 'flex' : 'none';
 
   document.getElementById('attempt-label').textContent = ATTEMPT_LABELS[g];
   document.getElementById('zoom-label').textContent = 'ZOOM LEVEL ' + zoom + 'X';
