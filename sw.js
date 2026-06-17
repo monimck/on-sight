@@ -1,4 +1,4 @@
-const CACHE = 'on-sight-v9';
+const CACHE = 'on-sight-v10';
 const ASSETS = [
   '/',
   '/index.html',
