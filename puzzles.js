@@ -709,7 +709,7 @@ const PUZZLES = [
     date: "2026-06-16",
     name: "Drop the Clutch",
     aliases: ["Dream Racer", "Ease the Clutch", "Autotriangulation", "Ease into the Dream", "Autobahn"],
-    grade: "V8",
+    grade: "V10",
     location: "Ogden, UT",
     photo: "images/drop_the_clutch.jpg"
   },
