@@ -1141,7 +1141,7 @@ const PUZZLES = [
     date: "2026-08-09",
     name: "Frogger",
     aliases: ["Froger"],
-    grade: "V13",
+    grade: "V11",
     location: "Brione, Switzerland",
     photo: "images/frogger.png"
   },
