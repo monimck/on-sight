@@ -1348,7 +1348,7 @@ const PUZZLES = [
   {
     date: "2026-09-04",
     name: "Shackled",
-    aliases: ["Unshackled"],
+    aliases: ["Unshackled", "Shackeled", "Unshackeled"],
     grade: "V5",
     location: "Lincoln Lake, CO",
     photo: "images/shackled.png"
@@ -1395,11 +1395,11 @@ const PUZZLES = [
   },
   {
     date: "2026-09-10",
-    name: "Future Present",
-    aliases: ["Welcome to the Future"],
-    grade: "V9",
+    name: "FWelcome to the Future",
+    aliases: ["Future Present"],
+    grade: "V11",
     location: "Lake Tahoe, CA",
-    photo: "images/future_present.jpg"
+    photo: "images/welcome_to_the_future.jpg"
   },
   {
     date: "2026-09-11",
@@ -1534,7 +1534,7 @@ const PUZZLES = [
     name: "Deception",
     aliases: [],
     grade: "V7",
-    location: "Rocktown, GA",
+    location: "Little Rock City, TN",
     photo: "images/deception.jpg"
   },
   {
@@ -1588,7 +1588,7 @@ const PUZZLES = [
   {
     date: "2026-10-04",
     name: "Triple Crown",
-    aliases: [],
+    aliases: ["Tripple Crown", "Masterwork", "Rainbow"],
     grade: "V6",
     location: "Lake Tahoe, CA",
     photo: "images/triple_crown.jpg"
@@ -1652,7 +1652,7 @@ const PUZZLES = [
   {
     date: "2026-10-12",
     name: "Zen Flute",
-    aliases: [],
+    aliases: ["Sharma's Flute", "Sharmas Flute", "Sharma's Flake", "Sharmas Flake"],
     grade: "V10",
     location: "Bishop, CA",
     photo: "images/zen_flute.jpg"
