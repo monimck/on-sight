@@ -1288,5 +1288,405 @@ const PUZZLES = [
     grade: "V11",
     location: "Joe's Valley, UT",
     photo: "images/pagan_poetry.jpg"
+  },
+  {
+    date: "2026-08-28",
+    name: "The Nostril",
+    aliases: ["Nostril"],
+    grade: "V8",
+    location: "Zen Pen, OK",
+    photo: "images/the_nostril.jpg"
+  },
+  {
+    date: "2026-08-29",
+    name: "Duell der Riesen",
+    aliases: ["Duel der Riesen", "Duel de Riesen", "Duel de Risen"],
+    grade: "V11",
+    location: "Odenwald, Germany",
+    photo: "images/duell_der_riesen.jpg"
+  },
+  {
+    date: "2026-08-30",
+    name: "Obesity",
+    aliases: [],
+    grade: "V7",
+    location: "Gold Bar, WA",
+    photo: "images/obesity.jpg"
+  },
+  {
+    date: "2026-08-31",
+    name: "Mr. Guppy",
+    aliases: ["Mr Guppy", "Mister Guppy", "Guppy"],
+    grade: "V7",
+    location: "Joe's Valley, UT",
+    photo: "images/mr_guppy.jpg"
+  },
+  {
+    date: "2026-09-01",
+    name: "Phat Slab",
+    aliases: ["Fat Slab"],
+    grade: "V5",
+    location: "Squamish, BC",
+    photo: "images/phat_slab.png"
+  },
+  {
+    date: "2026-09-02",
+    name: "The Birthing Experience",
+    aliases: ["Birthing Experience", "Birth Experience"],
+    grade: "V1",
+    location: "Bishop, CA",
+    photo: "images/birthing_experience.jpg"
+  },
+  {
+    date: "2026-09-03",
+    name: "Basic Instinct",
+    aliases: [],
+    grade: "V10",
+    location: "Rocklands, South Africa",
+    photo: "images/basic_instinct.jpg"
+  },
+  {
+    date: "2026-09-04",
+    name: "Shackled",
+    aliases: ["Unshackled"],
+    grade: "V5",
+    location: "Lincoln Lake, CO",
+    photo: "images/shackled.png"
+  },
+  {
+    date: "2026-09-05",
+    name: "De Fil en Aiguille",
+    aliases: ["De Fil en Aguille", "Aiguille", "Aguille"],
+    grade: "V5",
+    location: "Fontainebleau, France",
+    photo: "images/de_fil_en_aiguille.jpg"
+  },
+  {
+    date: "2026-09-06",
+    name: "Maxi Pad",
+    aliases: ["Maxipad"],
+    grade: "V7",
+    location: "Joe's Valley, UT",
+    photo: "images/maxi_pad.jpg"
+  },
+  {
+    date: "2026-09-07",
+    name: "Blue Suede Shoes",
+    aliases: ["Blue Swead Shoes", "Blue Swede Shoes"],
+    grade: "V5",
+    location: "Yosemite, CA",
+    photo: "images/blue_suede_shoes.png"
+  },
+  {
+    date: "2026-09-08",
+    name: "Ramen Raw",
+    aliases: [],
+    grade: "V7",
+    location: "Squamish, BC",
+    photo: "images/ramen_raw.jpg"
+  },
+  {
+    date: "2026-09-09",
+    name: "Speed Bump",
+    aliases: [],
+    grade: "V7",
+    location: "Hueco Tanks, TX",
+    photo: "images/speed_bump.png"
+  },
+  {
+    date: "2026-09-10",
+    name: "Future Present",
+    aliases: ["Welcome to the Future"],
+    grade: "V9",
+    location: "Lake Tahoe, CA",
+    photo: "images/future_present.jpg"
+  },
+  {
+    date: "2026-09-11",
+    name: "Cool Whip",
+    aliases: ["Coolwhip", "Miracle Whip"],
+    grade: "V10",
+    location: "Leavenworth, WA",
+    photo: "images/cool_whip.jpg"
+  },
+  {
+    date: "2026-09-12",
+    name: "Slashface of the Buttermilks",
+    aliases: ["Slashface of Buttermilks", "Slash Face of the Buttermilks"],
+    grade: "V6",
+    location: "Bishop, CA",
+    photo: "images/slashface_of_the_buttermilks.jpg"
+  },
+  {
+    date: "2026-09-13",
+    name: "Gurkha Knife",
+    aliases: ["Gurka Knife", "Ghurka Knife"],
+    grade: "V9",
+    location: "Joe's Valley, UT",
+    photo: "images/gurkha_knife.png"
+  },
+  {
+    date: "2026-09-14",
+    name: "The Pearl",
+    aliases: ["Pearl"],
+    grade: "V5",
+    location: "Red Rocks, NV",
+    photo: "images/pearl.png"
+  },
+  {
+    date: "2026-09-15",
+    name: "Worm World Cave",
+    aliases: ["Worm World"],
+    grade: "V9",
+    location: "Squamish, BC",
+    photo: "images/worm_world_cave.jpg"
+  },
+  {
+    date: "2026-09-16",
+    name: "Livin' Large",
+    aliases: ["Livin Large", "Living Large"],
+    grade: "V16",
+    location: "Rocklands, South Africa",
+    photo: "images/livin_large.jpg"
+  },
+  {
+    date: "2026-09-17",
+    name: "Blackout",
+    aliases: ["Black Out"],
+    grade: "V9",
+    location: "Rocktown, GA",
+    photo: "images/blackout.jpg"
+  },
+  {
+    date: "2026-09-18",
+    name: "Atom Heart Mother",
+    aliases: ["Atom", "Atom Heart"],
+    grade: "V8",
+    location: "Frankenjura, Germany",
+    photo: "images/atom_heart_mother.jpg"
+  },
+  {
+    date: "2026-09-19",
+    name: "The Wind Below",
+    aliases: ["Wind Below"],
+    grade: "V8",
+    location: "Joe's Valley, UT",
+    photo: "images/wind_below.png"
+  },
+  {
+    date: "2026-09-20",
+    name: "Tomahawk",
+    aliases: [],
+    grade: "V10",
+    location: "Lincoln Lake, CO",
+    photo: "images/tomahawk.png"
+  },
+  {
+    date: "2026-09-21",
+    name: "The Secrets of the Beehive",
+    aliases: ["Secrets of the Beehive"],
+    grade: "V7",
+    location: "Bishop, CA",
+    photo: "images/secrets_of_the_beehive.jpg"
+  },
+  {
+    date: "2026-09-22",
+    name: "Viper",
+    aliases: [],
+    grade: "V5",
+    location: "Squamish, BC",
+    photo: "images/viper.png"
+  },
+  {
+    date: "2026-09-23",
+    name: "Duel",
+    aliases: ["Dual", "Duell"],
+    grade: "V11",
+    location: "Fontainebleau, France",
+    photo: "images/duel.jpg"
+  },
+  {
+    date: "2026-09-24",
+    name: "Jacob's Ladder",
+    aliases: ["Jacobs Ladder"],
+    grade: "V7",
+    location: "Yosemite, CA",
+    photo: "images/jacobs_ladder.jpg"
+  },
+  {
+    date: "2026-09-25",
+    name: "Superman",
+    aliases: [],
+    grade: "V10",
+    location: "Joe's Valley, UT",
+    photo: "images/superman.png"
+  },
+  {
+    date: "2026-09-26",
+    name: "Grim Reaper",
+    aliases: ["Grimreaper"],
+    grade: "V10",
+    location: "Glory Hole Falls, AR",
+    photo: "images/grim_reaper.jpg"
+  },
+  {
+    date: "2026-09-27",
+    name: "Deception",
+    aliases: [],
+    grade: "V7",
+    location: "Rocktown, GA",
+    photo: "images/deception.jpg"
+  },
+  {
+    date: "2026-09-28",
+    name: "Eye of Sauron",
+    aliases: ["The Eye of Sauron", "Eye of Sauran", "Eye of Soron"],
+    grade: "V10",
+    location: "Rocklands, South Africa",
+    photo: "images/eye_of_sauron.jpg"
+  },
+  {
+    date: "2026-09-29",
+    name: "Big Chicken",
+    aliases: ["Chicken Lips and Assholes", "Chicken"],
+    grade: "V9",
+    location: "Squamish, BC",
+    photo: "images/big_chicken.jpg"
+  },
+  {
+    date: "2026-09-30",
+    name: "Wet Dream",
+    aliases: ["Wetdream", "Nocturnal Emissions"],
+    grade: "V12",
+    location: "Red Rocks, NV",
+    photo: "images/wet_dream.jpg"
+  },
+  {
+    date: "2026-10-01",
+    name: "No Substance",
+    aliases: [],
+    grade: "V8",
+    location: "Joe's Valley, UT",
+    photo: "images/no_substance.jpg"
+  },
+  {
+    date: "2026-10-02",
+    name: "Robinson's Rubber Tester",
+    aliases: ["Robinsons Rubber Tester", "Rubber Tester"],
+    grade: "V0",
+    location: "Bishop, CA",
+    photo: "images/robinsons_rubber_tester.jpg"
+  },
+  {
+    date: "2026-10-03",
+    name: "The Coffee Cup",
+    aliases: ["Coffee Cup"],
+    grade: "V9",
+    location: "Leavenworth, WA",
+    photo: "images/coffee_cup.jpg"
+  },
+  {
+    date: "2026-10-04",
+    name: "Triple Crown",
+    aliases: [],
+    grade: "V6",
+    location: "Lake Tahoe, CA",
+    photo: "images/triple_crown.jpg"
+  },
+  {
+    date: "2026-10-05",
+    name: "Better Eat Your Wheaties",
+    aliases: ["Better Eat Your Wheeties", "Crown of Aragorn"],
+    grade: "V8",
+    location: "Hueco Tanks, TX",
+    photo: "images/better_eat_your_wheaties.png"
+  },
+  {
+    date: "2026-10-06",
+    name: "Summer Vacation",
+    aliases: ["The Zero Zero", "Zero Zero", "Zero-Zero"],
+    grade: "V0",
+    location: "Squamish, BC",
+    photo: "images/summer_vacation.jpg"
+  },
+  {
+    date: "2026-10-07",
+    name: "Crumbs Highball",
+    aliases: ["Crumbs"],
+    grade: "V1",
+    location: "Yosemite, CA",
+    photo: "images/crumbs_highball.jpg"
+  },
+  {
+    date: "2026-10-08",
+    name: "Black Sea",
+    aliases: ["Dead Sea"],
+    grade: "V8",
+    location: "Joe's Valley, UT",
+    photo: "images/black_sea.png"
+  },
+  {
+    date: "2026-10-09",
+    name: "Le Toit du Cul de Chien",
+    aliases: ["Le Toit", "Letoit", "Letoit du Cul de Chien", "Le Toit de Cul de Chien"],
+    grade: "V6",
+    location: "Fontainebleau, France",
+    photo: "images/le_toit_du_cul_de_chien.jpg"
+  },
+  {
+    date: "2026-10-10",
+    name: "Brown Seam",
+    aliases: [],
+    grade: "V4",
+    location: "Lincoln Lake, CO",
+    photo: "images/brown_seam.png"
+  },
+  {
+    date: "2026-10-11",
+    name: "Peahi",
+    aliases: ["Pe'ahi", "Piahi"],
+    grade: "V12",
+    location: "Rocklands, South Africa",
+    photo: "images/peahi.jpg"
+  },
+  {
+    date: "2026-10-12",
+    name: "Zen Flute",
+    aliases: [],
+    grade: "V10",
+    location: "Bishop, CA",
+    photo: "images/zen_flute.jpg"
+  },
+  {
+    date: "2026-10-13",
+    name: "Black Hole",
+    aliases: ["Blackhole", "North Ridge", "North Ridge Mini", "Black Magic", "Something Wicked This Way Comes"],
+    grade: "V11",
+    location: "Squamish, BC",
+    photo: "images/black_hole.png"
+  },
+  {
+    date: "2026-10-14",
+    name: "Renaissance Man",
+    aliases: ["Renaisance Man", "Rennaissance Man", "Maserpiece"],
+    grade: "V9",
+    location: "Joe's Valley, UT",
+    photo: "images/renaissance_man.png"
+  },
+  {
+    date: "2026-10-15",
+    name: "Dark Horse",
+    aliases: ["Darkhorse"],
+    grade: "V10",
+    location: "Guanella Pass, CO",
+    photo: "images/dark_horse.png"
+  },
+  {
+    date: "2026-10-16",
+    name: "Throne of Blood",
+    aliases: [],
+    grade: "V8",
+    location: "Roy, WA",
+    photo: "images/throne_of_blood.jpg"
   }
 ];
