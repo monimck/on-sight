@@ -1676,7 +1676,7 @@ const PUZZLES = [
   {
     date: "2026-10-15",
     name: "Dark Horse",
-    aliases: ["Darkhorse"],
+    aliases: ["Darkhorse", "Double Dutches", "Double Dutchez"],
     grade: "V10",
     location: "Guanella Pass, CO",
     photo: "images/dark_horse.png"
