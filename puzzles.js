@@ -1628,7 +1628,7 @@ const PUZZLES = [
   {
     date: "2026-10-09",
     name: "Le Toit du Cul de Chien",
-    aliases: ["Le Toit", "Letoit", "Letoit du Cul de Chien", "Le Toit de Cul de Chien"],
+    aliases: ["Le Toit", "Letoit", "Letoit du Cul de Chien", "Le Toit de Cul de Chien", "Cul de Chien", "Cul de Chen", "Le Tote"],
     grade: "V6",
     location: "Fontainebleau, France",
     photo: "images/le_toit_du_cul_de_chien.jpg"
